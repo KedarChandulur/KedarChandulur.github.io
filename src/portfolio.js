@@ -368,7 +368,29 @@ const bigProjects = {
           url: "https://github.com/KedarChandulur/Basic_Login_Setup"
         }
       ]
-    }
+    },
+    {
+      //image: require("./assets/images/YoutubePlaylist.png"),
+      projectName: "Portfolio Video Playlist",
+      projectDesc: "This playlist contains all the videos related to my portfolio.",
+      footerLink: [
+        {
+          name: "YouTube Playlist",
+          url: "https://www.youtube.com/playlist?list=PLHuy6HTy8KF3-PLkBTglKe4VNI4_MKbEz",
+        }
+      ]
+    },
+    {
+      //image: require("./assets/images/Gamedemos.png"),
+      projectName: "Game Demos",
+      projectDesc: "This Google Drive link contains all my game demos.",
+      footerLink: [
+        {
+          name: "Google Drive",
+          url: "https://drive.google.com/drive/folders/1R_cf1DxQs3nRPIJxcY0E4LptXCEE-De5?usp=sharing",
+        }
+      ]
+    }    
   ],
   display: true
 };

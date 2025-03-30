@@ -370,24 +370,13 @@ const bigProjects = {
       ]
     },
     {
-      //image: require("./assets/images/YoutubePlaylist.png"),
-      projectName: "Portfolio Video Playlist",
-      projectDesc: "This playlist contains all the videos related to my portfolio.",
+      //image: require("./assets/images/Projectsummaries.png"),
+      projectName: "Additional Portfolio Documents",
+      projectDesc: "This Google Drive link contains game demos and project summaries.",
       footerLink: [
         {
-          name: "YouTube Playlist",
-          url: "https://www.youtube.com/playlist?list=PLHuy6HTy8KF3-PLkBTglKe4VNI4_MKbEz",
-        }
-      ]
-    },
-    {
-      //image: require("./assets/images/Gamedemos.png"),
-      projectName: "Game Demos",
-      projectDesc: "This Google Drive link contains all my game demos.",
-      footerLink: [
-        {
-          name: "Google Drive",
-          url: "https://drive.google.com/drive/folders/1R_cf1DxQs3nRPIJxcY0E4LptXCEE-De5?usp=sharing",
+          name: "Go to Drive",
+          url: "https://drive.google.com/drive/folders/1yR-YV0b9Un_kF_NozujJsi5A0SHYtia7?usp=sharing",
         }
       ]
     }    

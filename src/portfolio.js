@@ -70,6 +70,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "devicon-cplusplus-plain"
     },
     {
+      skillName: "Java",
+      fontAwesomeClassname: "devicon-java-plain",
+    },
+    {
       skillName: "Unity",
       fontAwesomeClassname: "devicon-unity-plain"
     },
@@ -124,10 +128,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Firebase",
       fontAwesomeClassname: "devicon-firebase-plain",
-    },
-    {
-      skillName: "Java",
-      fontAwesomeClassname: "devicon-java-plain",
     },
     {
       skillName: "Python",

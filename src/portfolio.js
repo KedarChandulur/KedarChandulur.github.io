@@ -214,19 +214,6 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Game Programmer (Volunteer & Intern)",
-      company: "Games for Love",
-      companylogo: require("./assets/images/gamesforloveLogo.png"),
-      date: "April 2024 – Present",
-      desc: "Led gameplay programming and optimization for two single-player Windows games: Gather Sword (Puzzle) and Cause-23 (Survival). Developed AI behaviors, weapon mechanics, and UI systems.",
-      descBullets: [
-        "Implemented a UI Manager that improved responsiveness and reduced load times by 15%.",
-        "Created advanced AI behaviors using Unity NavMesh, enhancing enemy movement and interactions.",
-        "Designed and optimized weapon mechanics, including projectile and direct-hit combat.",
-        "Developed puzzle snap functionality, increasing placement accuracy by 70% and improving user engagement."
-      ]
-    },
-    {
       role: "Junior Software Engineer",
       company: "Imaginate",
       companylogo: require("./assets/images/imaginateLogo.jpg"),

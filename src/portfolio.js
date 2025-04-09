@@ -239,7 +239,19 @@ const workExperiences = {
         "Led debugging efforts to resolve game engine bugs, improving stability and reducing post-build issues.",
         "Collaborated with QA teams to ensure smooth game releases through extensive post-build testing."
       ]
-    }
+    },
+    {
+      role: "Game Programmer (Volunteer & Intern)",
+      company: "Games for Love",
+      companylogo: require("./assets/images/gamesforloveLogo.png"),
+      date: "April 2024 – Present",
+      desc: "Led gameplay programming for two single-player Windows games: Gather Sword (Puzzle) and Cause-23 (Survival). Developed AI behaviors, weapon mechanics, and UI systems.",
+      descBullets: [
+        "Implemented a UI Manager that improved responsiveness and reduced load times by 15%.",
+        "Created AI behaviors using Unity NavMesh, enhancing enemy movement and interactions.",
+        "Programmed weapon mechanics.",
+      ]
+    },
   ]
 };
 

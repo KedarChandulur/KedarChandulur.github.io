@@ -357,7 +357,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "GitHub",
-          url: "https://github.com/KedarChandulur/Cryptology_BasicCiphers"
+          url: "https://github.com/KedarChandulur/DSA/tree/Master/Source/Cryptology"
         }
       ]
     },

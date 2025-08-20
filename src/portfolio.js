@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/KedarChandulur",
   linkedin: "https://www.linkedin.com/in/kedar-chandulur-42b1a317a/",
-  gmail: "kchandulur@gmail.com",
+  gmail: "kedarchandulur@gmail.com",
   //gitlab: "https://gitlab.com/saadpasta",
   //facebook: "https://www.facebook.com/saad.pasta7",
   //medium: "https://medium.com/@saadpasta",
@@ -66,16 +66,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "devicon-csharp-plain"
     },
     {
-      skillName: "C++",
-      fontAwesomeClassname: "devicon-cplusplus-plain"
-    },
-    {
-      skillName: "Java",
-      fontAwesomeClassname: "devicon-java-plain",
-    },
-    {
       skillName: "Unity",
       fontAwesomeClassname: "devicon-unity-plain"
+    },
+    {
+      skillName: "C++",
+      fontAwesomeClassname: "devicon-cplusplus-plain"
     },
     {
       skillName: "Unreal",
@@ -130,37 +126,41 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "devicon-firebase-plain",
     },
     {
-      skillName: "Python",
-      fontAwesomeClassname: "devicon-python-plain",
+      skillName: "C",
+      fontAwesomeClassname: "devicon-c-plain",
     },
     {
       skillName: "PHP",
       fontAwesomeClassname: "fab fa-php",
     },
     {
-      skillName: "C",
-      fontAwesomeClassname: "devicon-c-plain",
-    },
-    {
-      skillName: "Lua",
-      fontAwesomeClassname: "devicon-lua-plain",
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "devicon-javascript-plain",
-    },
-    {
-      skillName: "HTML",
-      fontAwesomeClassname: "devicon-html5-plain",
-    },
-    {
-      skillName: "SQL",
-      fontAwesomeClassname: "devicon-azuresqldatabase-plain",
-    },
-    {
-      skillName: "CSS",
-      fontAwesomeClassname: "devicon-css3-plain",
-    },
+      skillName: "Java",
+      fontAwesomeClassname: "devicon-java-plain",
+    }
+    // {
+    //   skillName: "Lua",
+    //   fontAwesomeClassname: "devicon-lua-plain",
+    // },
+    // {
+    //   skillName: "Python",
+    //   fontAwesomeClassname: "devicon-python-plain",
+    // },
+    // {
+    //   skillName: "JavaScript",
+    //   fontAwesomeClassname: "devicon-javascript-plain",
+    // },
+    // {
+    //   skillName: "HTML",
+    //   fontAwesomeClassname: "devicon-html5-plain",
+    // },
+    // {
+    //   skillName: "CSS",
+    //   fontAwesomeClassname: "devicon-css3-plain",
+    // },
+    // {
+    //   skillName: "SQL",
+    //   fontAwesomeClassname: "devicon-azuresqldatabase-plain",
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -217,12 +217,12 @@ const workExperiences = {
       role: "Junior Software Engineer",
       company: "Imaginate",
       companylogo: require("./assets/images/imaginateLogo.jpg"),
-      date: "July 2020 – January 2022",
+      date: "July 2020 – November 2021",
       desc: "Developed and optimized core features for Atom, a cross-platform VR/AR collaboration application. Managed CAD object integration, real-time collaboration, and UI enhancements.",
       descBullets: [
         "Led the CAD object viewer development, implementing seamless model conversion using Node.js and Autodesk Forge.",
         "Built a scalable conversion pipeline for transforming CAD models into GLTF format on AWS EC2.",
-        "Integrated REST APIs for real-time data transfer between Autodesk Forge, Imaginate backend, and Unity.",
+        "Integrated REST APIs for real-time data transfer between Model Converter(Amazon EC2), Imaginate backend, and Unity.",
         "Developed real-time name displays and implemented speech-to-text functionality for hands-free interaction.",
         "Mentored interns on CAD object integration and speech-to-text projects."
       ]
@@ -231,13 +231,13 @@ const workExperiences = {
       role: "Game Developer",
       company: "Gameshastra",
       companylogo: require("./assets/images/gameshastraLogo.jpg"),
-      date: "June 2019 – July 2020",
-      desc: "Developed and optimized mobile games for iOS and Android, focusing on gameplay mechanics, authentication systems, and build management.",
+      date: "October 2019 – April 2020",
+      desc: "Developed mobile games for iOS and Android, focusing on build management and authentication systems.",
       descBullets: [
-        "Streamlined Unity build processes for iOS (Xcode) and Android (NDK, SDK, OpenJDK).",
         "Integrated third-party plugins, including Facebook login and social authentication systems.",
-        "Led debugging efforts to resolve game engine bugs, improving stability and reducing post-build issues.",
-        "Collaborated with QA teams to ensure smooth game releases through extensive post-build testing."
+        "Practiced debugging and troubleshooting techniques to resolve game bugs, improving stability and reducing post-build issues.",
+        "Collaborated with QA teams to ensure smooth game releases through extensive post-build testing.",
+        "Streamlined Unity build pipelines for iOS (Xcode) and Android (NDK, SDK, OpenJDK) to reduce errors and accelerate delivery."
       ]
     }
   ]
@@ -504,8 +504,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+1 (773) 732-1908",
-  email_address: "kchandulur@gmail.com"
+  number: "+91 7661080761",
+  email_address: "kedarchandulur@gmail.com"
 };
 
 // Twitter Section

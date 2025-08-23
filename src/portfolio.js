@@ -126,17 +126,21 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "devicon-firebase-plain",
     },
     {
-      skillName: "C",
-      fontAwesomeClassname: "devicon-c-plain",
-    },
-    {
       skillName: "PHP",
       fontAwesomeClassname: "fab fa-php",
     },
     {
-      skillName: "Java",
-      fontAwesomeClassname: "devicon-java-plain",
-    }
+      skillName: "MySQL",
+      fontAwesomeClassname: "devicon-azuresqldatabase-plain",
+    },
+    {
+      skillName: "C",
+      fontAwesomeClassname: "devicon-c-plain",
+    },
+    // {
+    //   skillName: "Java",
+    //   fontAwesomeClassname: "devicon-java-plain",
+    // },
     // {
     //   skillName: "Lua",
     //   fontAwesomeClassname: "devicon-lua-plain",
@@ -157,10 +161,6 @@ https://fontawesome.com/icons?d=gallery */
     //   skillName: "CSS",
     //   fontAwesomeClassname: "devicon-css3-plain",
     // },
-    // {
-    //   skillName: "SQL",
-    //   fontAwesomeClassname: "devicon-azuresqldatabase-plain",
-    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -214,10 +214,21 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Game Programmer (Volunteer & Intern)",
+      company: "Games for Love",
+      companylogo: require("./assets/images/gamesforloveLogo.png"),
+      date: "April 2024 – June 2024",
+      desc: "Led gameplay programming for two single-player Windows games: Gather Sword (Puzzle) and Cause-23 (Survival).",
+      descBullets: [
+        "Programmed weapon mechanics.",
+        "Developed UI for all participated game jams.",
+      ]
+    },
+    {
       role: "Junior Software Engineer",
       company: "Imaginate",
       companylogo: require("./assets/images/imaginateLogo.jpg"),
-      date: "July 2020 – November 2021",
+      date: "July 2020 – January 2022",
       desc: "Developed and optimized core features for Atom, a cross-platform VR/AR collaboration application. Managed CAD object integration, real-time collaboration, and UI enhancements.",
       descBullets: [
         "Led the CAD object viewer development, implementing seamless model conversion using Node.js and Autodesk Forge.",
@@ -231,13 +242,13 @@ const workExperiences = {
       role: "Game Developer",
       company: "Gameshastra",
       companylogo: require("./assets/images/gameshastraLogo.jpg"),
-      date: "October 2019 – April 2020",
+      date: "June 2019 – July 2020",
       desc: "Developed mobile games for iOS and Android, focusing on build management and authentication systems.",
       descBullets: [
         "Integrated third-party plugins, including Facebook login and social authentication systems.",
         "Practiced debugging and troubleshooting techniques to resolve game bugs, improving stability and reducing post-build issues.",
         "Collaborated with QA teams to ensure smooth game releases through extensive post-build testing.",
-        "Streamlined Unity build pipelines for iOS (Xcode) and Android (NDK, SDK, OpenJDK) to reduce errors and accelerate delivery."
+        "Streamlined Unity build pipelines for iOS and Android to reduce errors and accelerate delivery."
       ]
     }
   ]

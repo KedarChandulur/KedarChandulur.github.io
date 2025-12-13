@@ -275,8 +275,8 @@ const bigProjects = {
         "Designed and implemented a scalable file retrieval system using a multithreaded client-server model. Orchestrated communication between virtual machines and containers using SSH, ZeroMQ, and gRPC. Built a lightweight file server to simulate real-world distributed environments.",
       footerLink: [
         {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/kedar-chandulur-42b1a317a/details/projects/"
+          name: "Github",
+          url: "https://github.com/KedarChandulur/FileRetrievalEngine"
         }
       ]
     },

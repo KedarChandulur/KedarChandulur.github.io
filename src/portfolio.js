@@ -272,11 +272,21 @@ const bigProjects = {
       //image: require("./assets/images/distributedSystems.jpg"), // optional if you have a visual
       projectName: "Distributed Systems",
       projectDesc:
-        "Designed and implemented a scalable file retrieval system using a multithreaded client-server model. Orchestrated communication between virtual machines and containers using SSH, ZeroMQ, and gRPC. Built a lightweight file server to simulate real-world distributed environments.",
+        "Designed and implemented a scalable file retrieval system using a multithreaded client-server model. Orchestrated communication between virtual machines and containers using SSH, ZeroMQ, gRPC and C++. Built a lightweight file server to simulate real-world distributed environments.",
       footerLink: [
         {
           name: "Github",
           url: "https://github.com/KedarChandulur/FileRetrievalEngine"
+        }
+      ]
+    },
+    {
+      projectName: "Multithreading Project",
+      projectDesc: "Created a modular multithreading framework using C++ (for running a puzzle solver) and C# (for audio engine). Improved performance by separating logic into concurrent threads, reducing latency and boosting responsiveness. Focused on synchronization, thread safety.",
+      footerLink: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/kedar-chandulur-42b1a317a/details/projects/"
         }
       ]
     },
@@ -289,27 +299,27 @@ const bigProjects = {
           url: "https://www.linkedin.com/in/kedar-chandulur-42b1a317a/details/projects/"
         }
       ]
-    },    
+    },
     {
-      projectName: "Multithreading Project",
-      projectDesc: "Created a modular multithreading framework using C#(for audio engine) and C++(for running a puzzle solver). Improved performance by separating logic into concurrent threads, reducing latency and boosting responsiveness. Focused on synchronization, thread safety.",
+      projectName: "Pong Game",
+      projectDesc: "Recreated the classic Pong game in C++ and SFML. Built collision-based paddle and ball interactions, scoring logic, and responsive player controls. Focused on game loop structure, physics handling, and debugging techniques to reinforce foundational game programming concepts.",
       footerLink: [
         {
-          name: "LinkedIn",
-          url: "https://www.linkedin.com/in/kedar-chandulur-42b1a317a/details/projects/"
+          name: "GitHub",
+          url: "https://github.com/KedarChandulur/Pong"
         }
       ]
     },
     {
       projectName: "Space Invaders Game",
-      projectDesc: "Recreated the classic Space Invaders arcade game using Unity and C#. Implemented object pooling for efficient projectile handling, accurate collision detection for enemy hits, and a wave-based enemy spawning system. Applied design patterns to ensure scalability and code maintainability.",
+      projectDesc: "Recreated the classic Space Invaders arcade game using C# and Azul Game Engine. Implemented object pooling for efficient projectile handling, accurate collision detection for enemy hits, and a wave-based enemy spawning system. Applied design patterns to ensure scalability and code maintainability.",
       footerLink: [
         {
           name: "Video Demo",
           url: "https://youtu.be/K__JX0RLzYs?si=2KfmUMbQRW9zT6z9&t=833"
         }
       ]
-    },        
+    },     
     {
       projectName: "Escape Room",
       projectDesc: "Designed a escape room game in Unity where players solve puzzles and answer quizzes to progress. Integrated a custom quiz system, dynamic puzzle flow, and multiple interactive rooms to enhance gameplay. Focused on player progression and UI feedback to improve user engagement.",
@@ -337,16 +347,6 @@ const bigProjects = {
         {
           name: "GitHub",
           url: "https://github.com/KedarChandulur/Volcano_Panic"
-        }
-      ]
-    },
-    {
-      projectName: "Pong Game",
-      projectDesc: "Recreated the classic Pong game in Unity. Built collision-based paddle and ball interactions, scoring logic, and responsive player controls. Focused on game loop structure, physics handling, and debugging techniques to reinforce foundational game programming concepts.",
-      footerLink: [
-        {
-          name: "GitHub",
-          url: "https://github.com/KedarChandulur/Pong"
         }
       ]
     },

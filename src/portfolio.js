@@ -86,22 +86,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "devicon-json-plain",
     },
     {
-      skillName: "gRPC",
-      fontAwesomeClassname: "devicon-grpc-plain",
-    },
-    {
-      skillName: "Photon",
-      fontAwesomeClassname: "devicon-photonengine-plain",
-    },
-    {
-      skillName: "Node.js",
-      fontAwesomeClassname: "devicon-nodejs-plain-wordmark",
-    },
-    {
-      skillName: "Amazon EC2",
-      fontAwesomeClassname: "devicon-amazonwebservices-plain-wordmark",
-    },
-    {
       skillName: "Git",
       fontAwesomeClassname: "devicon-git-plain",
     },
@@ -110,7 +94,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-linux",
     },
     {
-      skillName: "Ubuntu",
+      skillName: "Ubuntu Server",
       fontAwesomeClassname: "fab fa-ubuntu",
     },
     {
@@ -122,24 +106,40 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fa fa-server",
     },
     {
-      skillName: "Firebase",
-      fontAwesomeClassname: "devicon-firebase-plain",
-    },
-    {
-      skillName: "PHP",
-      fontAwesomeClassname: "fab fa-php",
-    },
-    {
-      skillName: "MySQL",
-      fontAwesomeClassname: "devicon-azuresqldatabase-plain",
-    },
-    {
       skillName: "C",
       fontAwesomeClassname: "devicon-c-plain",
     },
+    {
+      skillName: "Photon",
+      fontAwesomeClassname: "devicon-photonengine-plain",
+    },
+    {
+      skillName: "Amazon EC2",
+      fontAwesomeClassname: "devicon-amazonwebservices-plain-wordmark",
+    },
+    {
+      skillName: "Node.js",
+      fontAwesomeClassname: "devicon-nodejs-plain-wordmark",
+    },
+    {
+      skillName: "Firebase",
+      fontAwesomeClassname: "devicon-firebase-plain",
+    },
+    // {
+    //   skillName: "gRPC",
+    //   fontAwesomeClassname: "devicon-grpc-plain",
+    // },
+    // {
+    //   skillName: "MySQL",
+    //   fontAwesomeClassname: "devicon-azuresqldatabase-plain",
+    // },
     // {
     //   skillName: "Java",
     //   fontAwesomeClassname: "devicon-java-plain",
+    // },
+    // {
+    //   skillName: "PHP",
+    //   fontAwesomeClassname: "fab fa-php",
     // },
     // {
     //   skillName: "Lua",
@@ -160,7 +160,7 @@ https://fontawesome.com/icons?d=gallery */
     // {
     //   skillName: "CSS",
     //   fontAwesomeClassname: "devicon-css3-plain",
-    // },
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -213,17 +213,17 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    {
-      role: "Game Programmer (Volunteer & Intern)",
-      company: "Games for Love",
-      companylogo: require("./assets/images/gamesforloveLogo.png"),
-      date: "April 2024 – June 2024",
-      desc: "Led gameplay programming for two single-player Windows games: Gather Sword (Puzzle) and Cause-23 (Survival).",
-      descBullets: [
-        "Programmed weapon mechanics.",
-        "Developed UI for all participated game jams.",
-      ]
-    },
+    // {
+    //   role: "Game Programmer (Volunteer & Intern)",
+    //   company: "Games for Love",
+    //   companylogo: require("./assets/images/gamesforloveLogo.png"),
+    //   date: "April 2024 – June 2024",
+    //   desc: "Led gameplay programming for two single-player Windows games: Gather Sword (Puzzle) and Cause-23 (Survival).",
+    //   descBullets: [
+    //     "Programmed weapon mechanics.",
+    //     "Developed UI for all participated game jams.",
+    //   ]
+    // },
     {
       role: "Junior Software Engineer",
       company: "Imaginate",

@@ -213,17 +213,17 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    // {
-    //   role: "Game Programmer (Volunteer & Intern)",
-    //   company: "Games for Love",
-    //   companylogo: require("./assets/images/gamesforloveLogo.png"),
-    //   date: "April 2024 – June 2024",
-    //   desc: "Led gameplay programming for two single-player Windows games: Gather Sword (Puzzle) and Cause-23 (Survival).",
-    //   descBullets: [
-    //     "Programmed weapon mechanics.",
-    //     "Developed UI for all participated game jams.",
-    //   ]
-    // },
+    {
+      role: "Game Programmer (Volunteer & Intern)",
+      company: "Games for Love",
+      companylogo: require("./assets/images/gamesforloveLogo.png"),
+      date: "April 2024 – June 2024",
+      desc: "Led gameplay programming for two single-player Windows games: Gather Sword (Puzzle) and Cause-23 (Survival).",
+      descBullets: [
+        "Programmed weapon mechanics.",
+        "Developed UI for all participated game jams.",
+      ]
+    },
     {
       role: "Junior Software Engineer",
       company: "Imaginate",

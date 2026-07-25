@@ -268,37 +268,37 @@ const bigProjects = {
   title: "Projects",
   subtitle: "Academic and Personal Projects",
   projects: [
-    // {
-    //   projectName: "Distributed Systems",
-    //   projectDesc:
-    //     "Designed and implemented a scalable file retrieval system using a multithreaded client-server model. Orchestrated communication between virtual machines and containers using SSH, ZeroMQ, gRPC and C++. Built a lightweight file server to simulate real-world distributed environments.",
-    //   footerLink: [
-    //     {
-    //       name: "Github",
-    //       url: "https://github.com/KedarChandulur/FileRetrievalEngine"
-    //     }
-    //   ]
-    // },
-    // {
-    //   projectName: "Multithreading Project",
-    //   projectDesc: "Created a modular multithreading framework using C++ (for running a puzzle solver) and C# (for audio engine). Improved performance by separating logic into concurrent threads, reducing latency and boosting responsiveness. Focused on synchronization, thread safety.",
-    //   footerLink: [
-    //     {
-    //       name: "LinkedIn",
-    //       url: "https://www.linkedin.com/in/kedar-chandulur-42b1a317a/details/projects/"
-    //     }
-    //   ]
-    // },
-    // {
-    //   projectName: "Space Invaders Game",
-    //   projectDesc: "Recreated the classic Space Invaders arcade game using C# and Azul Game Engine. Implemented object pooling for efficient projectile handling, accurate collision detection for enemy hits, and a wave-based enemy spawning system. Applied design patterns to ensure scalability and code maintainability.",
-    //   footerLink: [
-    //     {
-    //       name: "Video Demo",
-    //       url: "https://youtu.be/K__JX0RLzYs?si=2KfmUMbQRW9zT6z9&t=833"
-    //     }
-    //   ]
-    // },
+    {
+      projectName: "Distributed Systems",
+      projectDesc:
+        "Designed and implemented a scalable file retrieval system using a multithreaded client-server model. Orchestrated communication between virtual machines and containers using SSH, and C++. Built a lightweight file server to simulate real-world distributed environments.",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/KedarChandulur/FileRetrievalEngine"
+        }
+      ]
+    },
+    {
+      projectName: "Multithreading Project",
+      projectDesc: "Created a modular multithreading framework using C++ (for running a puzzle solver) and C# (for audio engine). Improved performance by separating logic into concurrent threads, reducing latency and boosting responsiveness. Focused on synchronization, thread safety.",
+      footerLink: [
+        {
+          name: "LinkedIn",
+          url: "https://www.linkedin.com/in/kedar-chandulur-42b1a317a/details/projects/"
+        }
+      ]
+    },
+    {
+      projectName: "Space Invaders Game",
+      projectDesc: "Recreated the classic Space Invaders arcade game using C# and Azul Game Engine. Implemented object pooling for efficient projectile handling, accurate collision detection for enemy hits, and a wave-based enemy spawning system. Applied design patterns to ensure scalability and code maintainability.",
+      footerLink: [
+        {
+          name: "Video Demo",
+          url: "https://youtu.be/K__JX0RLzYs?si=2KfmUMbQRW9zT6z9&t=833"
+        }
+      ]
+    },
     {
       projectName: "Game Engine",
       projectDesc: "Built a 3D Game Engine using C++ and DirectX 11 with full support for memory management, shaders, and real-time rendering. Developed systems for asset loading and animation. Engine was used to create interactive environments with smooth performance and modular architecture.",
